@@ -8,25 +8,28 @@
 //  Notice what happens when there is exactly 1 border! Why is this happening?
 // 7. Finally, convert 'numNeighbours' to a number, and watch what happens now when you input 1
 // 8. Reflect on why we should use the === operator and type conversion in this situation
-const readline = require("readline");
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Neighbour Check</title>
+</head>
+<body>
 
-// Create interface to get input from the user
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+<script>
+  let numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
 
-// Ask the question
-rl.question("How many neighbour countries does your country have? ", function (answer) {
-  const numNeighbours = Number(answer); // Convert input string to number
-
-  if (numNeighbours === 1) {
+  if (numNeighbours === 1)
+  {
     console.log("Only 1 border!");
-  } else if (numNeighbours > 1) {
+  } 
+  else if (numNeighbours > 1) 
+  {
     console.log("More than 1 border");
-  } else {
+  } 
+  else 
+  {
     console.log("No borders");
   }
-
-  rl.close(); // Close input stream
-});
+</script>
+</body>
+</html>
