@@ -10,6 +10,19 @@
 // 5. Probably your country does not meet all the criteria. So go back and temporarily change some variables
 // in order to make the condition true (unless you live in Canada :D)
 
+//Step 1: Commented out previous code (prompt)
+
+//let input = prompt("How many neighbour countries does your country have?");
+//let numNeighbours = Number(input);
+
+//if (numNeighbours === 1) {
+ // console.log("Only 1 border!");
+// } else if (numNeighbours > 1) {
+// console.log("More than 1 border");
+// } else {
+ // console.log("No borders");
+//}
+
 const country ="Pakistan";
 const language = "Urdu";
 const population= 240 //in millions
