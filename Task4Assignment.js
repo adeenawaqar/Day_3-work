@@ -30,6 +30,18 @@
   {
     console.log("No borders");
   }
+/ Step 5: You can test this by entering different values (0, 1, 2, etc.)
+
+  // Step 6: If we had used == instead of ===, '1' == 1 would be true
+  // But === is better because it checks both value and type
+
+  // Step 7: We used Number() to convert input from string to number
+
+  // Step 8: Why use === and type conversion?
+  console.log("\nWhy use === and type conversion?");
+  console.log("Because prompt() gives string input.");
+  console.log("Using === ensures both value and type match.");
+  console.log("Type conversion helps avoid bugs with string/number mix.");
 </script>
 </body>
 </html>
